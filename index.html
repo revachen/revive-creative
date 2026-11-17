@@ -245,6 +245,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 .cbox hr{border:0;border-top:1px solid var(--line);margin:4px 0}
 .ig{display:flex;justify-content:space-between;align-items:center;gap:10px;text-decoration:none;font-size:15px}
 .ig span{color:var(--faint);font-size:14px}
+.btn.line{background:#06C755;border-color:#06C755;color:#fff}.btn.line:hover{background:#05A648;border-color:#05A648;color:#fff}
 .ig b{font-weight:600}
 .ig:hover b{color:var(--accent)}
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);opacity:0;background:var(--ink);color:var(--paper);font:600 14.5px/1.4 var(--f-body);padding:12px 18px;border-radius:12px;box-shadow:var(--shadow);pointer-events:none;transition:opacity .2s,transform .2s;z-index:80;max-width:calc(100% - 32px)}
@@ -537,6 +538,10 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <p class="picked" id="picked">想洽談的服務：<b id="picked-name"></b><button type="button" id="picked-clear">清除</button></p>
 </div>
 <div class="cbox">
+<span class="lbl" style="margin:0">LINE 官方帳號</span>
+<div class="row"><a class="btn line" href="https://line.me/R/ti/p/@307bwjvm" target="_blank" rel="noopener">加入 LINE 好友洽詢</a></div>
+<p class="hint">LINE ID：@307bwjvm，加入好友後直接傳訊息給我們。</p>
+<hr>
 <span class="lbl" style="margin:0">Email</span>
 <span class="mail" id="mail">revivecreative2331@gmail.com</span>
 <div class="row">
