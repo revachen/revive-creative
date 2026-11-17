@@ -3,41 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta property="og:title" content="溫室創意 Revive Creative">
-<meta property="og:description" content="品牌企劃、內容製作、行銷宣傳、活動統籌與補助提案，依照你的需求整合專業與資源，推進每個專案。">
-<meta property="og:type" content="website">
-<meta property="og:image" content="logo-lockup.png">
-<link rel="icon" type="image/png" href="logo-mark.png">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>溫室創意 Revive Creative</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="溫室創意提供品牌企劃、內容製作、行銷宣傳、活動統籌與補助提案，依照需求整合專業與資源，推進每個專案。">
+<meta name="description" content="溫室創意提供品牌企劃、內容製作、行銷宣傳、活動統籌與補助提案，依照你的需求整合專業與資源，推進每個專案。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://revachen.github.io/revive-creative/">
+<meta property="og:title" content="溫室創意 Revive Creative">
+<meta property="og:description" content="品牌企劃、內容製作、行銷宣傳、活動統籌與補助提案，可單項委託，也能依需求整合執行。">
+<meta property="og:image" content="https://revachen.github.io/revive-creative/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://revachen.github.io/revive-creative/og-image.png">
+<link rel="icon" type="image/png" href="favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
 <style>
+/* Brand: light blue + white as primary identity (provisional #C0C6F0 sampled from the company deck; replace with official values when available).
+   Logo keeps the original mark/wordmark artwork, tinted with --logo. Purple is secondary accent only. */
 :root{
---paper:#F5F6FC; --card:#FFFFFF; --glass:rgba(255,255,255,.78); --ink:#141A33; --muted:#4F5575; --faint:#6B7090; --line:#DDE1F0;
---accent:#4E55D6; --accent-ink:#FFFFFF; --violet:#6F4FD8; --pink:#B8478F; --sky:#5F8AE8; --soft:#ECECFD; --soft2:#F3F0FD;
---glow1:rgba(127,166,245,.28); --glow2:rgba(170,140,245,.24); --glow3:rgba(240,165,212,.20);
---logo-grad:linear-gradient(115deg,#3D47C9 0%,#7552DA 55%,#B44894 100%);
---shadow:0 12px 32px rgba(44,54,130,.08); --r:18px;
+--paper:#F7F8FD; --card:#FFFFFF; --ink:#151A36; --muted:#474D6E; --faint:#5F6588; --line:#DCE0F0;
+--brand:#C0C6F0; --brand-soft:#ECEEFB; --brand-ink:#26306B; --logo:#26306B;
+--accent:#3A46B5; --accent-ink:#FFFFFF; --violet:#6A4BD0; --pink:#B8478F;
+--glow1:rgba(160,175,240,.32); --glow2:rgba(192,198,240,.40); --glow3:rgba(205,190,245,.18);
+--shadow:0 12px 32px rgba(38,48,107,.08); --r:18px;
+--line-green:#05863C; --line-green-hover:#046E31;
 --f-display:"Archivo","Noto Sans TC","Helvetica Neue",Arial,sans-serif;
 --f-body:"IBM Plex Sans","Noto Sans TC","Helvetica Neue",Arial,sans-serif;
 --f-mono:"JetBrains Mono","Noto Sans TC",ui-monospace,Menlo,monospace;
 --nav-h:60px; --maxw:1200px; --sec:clamp(56px,8vw,104px);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
---paper:#0F1222; --card:#171B30; --glass:rgba(20,24,44,.8); --ink:#ECEEFB; --muted:#B4B8D2; --faint:#9A9FBE; --line:#2C3150;
---accent:#A0A7FF; --accent-ink:#0E1022; --violet:#B9A2FF; --pink:#F2A0D6; --sky:#9DBBFF; --soft:#20244A; --soft2:#1B1F3A;
---glow1:rgba(90,120,230,.20); --glow2:rgba(140,100,230,.16); --glow3:rgba(220,110,180,.10);
---logo-grad:linear-gradient(115deg,#AAB1FF 0%,#C3AEFF 55%,#F4AEDC 100%);
+--paper:#0F1222; --card:#171B30; --ink:#ECEEFB; --muted:#B8BCD6; --faint:#A0A5C4; --line:#2C3150;
+--brand:#C0C6F0; --brand-soft:#1C2142; --brand-ink:#C9CFF6; --logo:#C9CFF6;
+--accent:#AEB6FF; --accent-ink:#0E1022; --violet:#B9A2FF; --pink:#F2A0D6;
+--glow1:rgba(90,110,230,.20); --glow2:rgba(120,130,230,.14); --glow3:rgba(150,110,230,.10);
 --shadow:0 12px 32px rgba(0,0,0,.36); color-scheme:dark;}}
 :root[data-theme="dark"]{
---paper:#0F1222; --card:#171B30; --glass:rgba(20,24,44,.8); --ink:#ECEEFB; --muted:#B4B8D2; --faint:#9A9FBE; --line:#2C3150;
---accent:#A0A7FF; --accent-ink:#0E1022; --violet:#B9A2FF; --pink:#F2A0D6; --sky:#9DBBFF; --soft:#20244A; --soft2:#1B1F3A;
---glow1:rgba(90,120,230,.20); --glow2:rgba(140,100,230,.16); --glow3:rgba(220,110,180,.10);
---logo-grad:linear-gradient(115deg,#AAB1FF 0%,#C3AEFF 55%,#F4AEDC 100%);
+--paper:#0F1222; --card:#171B30; --ink:#ECEEFB; --muted:#B8BCD6; --faint:#A0A5C4; --line:#2C3150;
+--brand:#C0C6F0; --brand-soft:#1C2142; --brand-ink:#C9CFF6; --logo:#C9CFF6;
+--accent:#AEB6FF; --accent-ink:#0E1022; --violet:#B9A2FF; --pink:#F2A0D6;
+--glow1:rgba(90,110,230,.20); --glow2:rgba(120,130,230,.14); --glow3:rgba(150,110,230,.10);
 --shadow:0 12px 32px rgba(0,0,0,.36); color-scheme:dark;}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 16px)}
@@ -52,9 +60,9 @@ h1,h2,h3{font-family:var(--f-display);margin:0;text-wrap:balance;word-break:keep
 p{margin:0}
 ul,ol{margin:0;padding:0;list-style:none}
 .num{font-variant-numeric:tabular-nums}
-.lbl{display:block;font:600 13px/1.4 var(--f-body);color:var(--faint);letter-spacing:.04em;margin-bottom:6px}
-.eyebrow{font:600 12.5px/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--violet)}
-.logo{display:block;background:var(--logo-grad);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:left center;mask-position:left center;-webkit-mask-size:contain;mask-size:contain;max-width:100%}
+.lbl{font:600 13.5px/1.4 var(--f-body);color:var(--faint);letter-spacing:.04em;margin-bottom:8px}
+.eyebrow{font:600 12.5px/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+.logo{display:block;background:var(--logo);-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:left center;mask-position:left center;-webkit-mask-size:contain;mask-size:contain;max-width:100%}
 .logo-lockup{-webkit-mask-image:url(logo-lockup.png);mask-image:url(logo-lockup.png);aspect-ratio:1300/544}
 .logo-mark{-webkit-mask-image:url(logo-mark.png);mask-image:url(logo-mark.png);aspect-ratio:520/762}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 15px/1.2 var(--f-body);background:var(--ink);color:var(--paper);border:1px solid var(--ink);padding:14px 20px;border-radius:12px;cursor:pointer;text-decoration:none;min-height:48px;transition:background .15s,color .15s,border-color .15s,transform .1s}
@@ -63,18 +71,22 @@ ul,ol{margin:0;padding:0;list-style:none}
 .btn.ghost{background:transparent;color:var(--ink)}
 .btn.ghost:hover{background:var(--ink);color:var(--paper);border-color:var(--ink)}
 .btn.small{min-height:42px;padding:10px 16px;font-size:14px}
+.btn.line{background:var(--line-green);border-color:var(--line-green);color:#fff}
+.btn.line:hover{background:var(--line-green-hover);border-color:var(--line-green-hover);color:#fff}
+.linkbtn{font:inherit;color:var(--accent);background:none;border:0;padding:0;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 .skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:var(--accent-ink);padding:8px 12px;z-index:100}
 .skip:focus{left:16px}
-.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:var(--glass);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-.nav .wrap{display:flex;align-items:center;gap:16px;height:var(--nav-h)}
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--paper) 82%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;gap:16px;height:var(--nav-h);position:relative}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0;margin-right:auto}
 .brand .logo-mark{width:14px}
-.brand b{font:800 15px/1 var(--f-display);letter-spacing:.04em}
+.brand b{font:800 15px/1 var(--f-display);letter-spacing:.04em;color:var(--brand-ink)}
 .brand small{font:500 12px/1 var(--f-body);color:var(--faint);letter-spacing:.1em}
 .menu{display:flex;gap:2px}
 .menu a{font:500 14.5px/1 var(--f-body);text-decoration:none;padding:10px 12px;border-radius:8px;color:var(--muted)}
-.menu a:hover{color:var(--ink);background:var(--soft)}
-.menu a[aria-current="true"]{color:var(--accent);background:var(--soft)}
+.menu a:hover{color:var(--ink);background:var(--brand-soft)}
+.menu a[aria-current="true"]{color:var(--accent);background:var(--brand-soft)}
 .menu-btn{display:none;font:600 14px/1 var(--f-body);background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:42px;cursor:pointer}
 @media (max-width:900px){
 .nav .btn{display:none}
@@ -84,21 +96,23 @@ ul,ol{margin:0;padding:0;list-style:none}
 .menu a{padding:14px 8px;font-size:16px;border-bottom:1px solid var(--line);border-radius:0}
 .menu a:last-child{border-bottom:0}
 }
+/* sections */
 .section{padding-block:var(--sec);border-top:1px solid var(--line)}
-.sec-head{display:grid;grid-template-columns:minmax(0,1fr);gap:12px;margin-bottom:clamp(28px,4vw,48px);max-width:760px}
+.sec-head{display:grid;gap:12px;margin-bottom:clamp(28px,4vw,48px);max-width:760px}
 .sec-head h2{font-size:clamp(30px,4vw,48px);line-height:1.18;font-weight:900}
 .sec-head .lede{font-size:clamp(16px,1.4vw,18px);color:var(--muted);max-width:40em}
+/* hero */
 .hero{padding-block:clamp(40px,6vw,88px) clamp(40px,5vw,64px)}
 .hero-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(32px,5vw,72px);align-items:center}
 @media (max-width:960px){.hero-grid{grid-template-columns:1fr}}
 .hero .logo-lockup{width:200px;margin-bottom:28px}
 .hero h1{font-size:clamp(40px,6vw,76px);line-height:1.12;font-weight:900;letter-spacing:.01em}
-.hero h1 .g{background-image:linear-gradient(100deg,var(--accent),var(--violet) 55%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero h1 .g{color:var(--accent)}
 .hero .sub{margin-top:22px;font-size:clamp(17px,1.5vw,19px);line-height:1.75;max-width:34em}
 .hero .sub2{margin-top:12px;font-size:16px;color:var(--muted);max-width:34em}
 .hero .tagline{margin-top:20px;font:500 12.5px/1.4 var(--f-mono);letter-spacing:.08em;color:var(--faint)}
 .actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
-.hero-index{background:var(--glass);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:10px 22px}
+.hero-index{background:var(--card);border:1px solid var(--line);border-top:6px solid var(--brand);border-radius:22px;box-shadow:var(--shadow);padding:10px 22px}
 .hero-index p.cap{font:600 12px/1 var(--f-mono);letter-spacing:.12em;color:var(--faint);padding:14px 0 6px}
 .hero-index li a{display:grid;grid-template-columns:2.4em minmax(0,1fr) auto;gap:2px 10px;align-items:baseline;padding:16px 0;border-top:1px solid var(--line);text-decoration:none}
 .hero-index .hi-no{font:600 13px/1 var(--f-mono);color:var(--accent)}
@@ -107,76 +121,88 @@ ul,ol{margin:0;padding:0;list-style:none}
 .hero-index li a::after{content:"→";grid-column:3;grid-row:1;color:var(--faint);transition:transform .15s,color .15s}
 .hero-index li a:hover .hi-t{color:var(--accent)}
 .hero-index li a:hover::after{transform:translateX(3px);color:var(--accent)}
-.trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-block:1px solid var(--line);margin-top:clamp(40px,5vw,64px)}
-.trust div{padding:20px 20px 20px 0;min-width:0}
-.trust div+div{padding-left:20px;border-left:1px solid var(--line)}
-.trust b{display:block;font:800 17px/1.4 var(--f-display);margin-bottom:4px}
-.trust span{font-size:14px;color:var(--muted);line-height:1.6;display:block}
-@media (max-width:900px){.trust{grid-template-columns:repeat(2,minmax(0,1fr))}.trust div:nth-child(3){padding-left:0;border-left:0}.trust div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
-@media (max-width:520px){.trust{grid-template-columns:1fr}.trust div,.trust div+div{padding:16px 0;border-left:0;border-bottom:1px solid var(--line)}.trust div:last-child{border-bottom:0}}
-.kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));background:var(--glass);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);margin-top:clamp(40px,5vw,64px)}
-.kpis div{padding:clamp(16px,2.2vw,24px);border-right:1px solid var(--line);display:flex;flex-direction:column;gap:6px;min-width:0}
-.kpis div:last-child{border-right:0}
-.kpis .v{font-family:var(--f-display);font-weight:900;font-stretch:72%;font-size:clamp(30px,3.4vw,46px);line-height:1;white-space:nowrap}
-.kpis .v small{font-size:.5em;font-stretch:100%;margin-left:2px}
-.kpis div:nth-child(1) .v{color:var(--accent)} .kpis div:nth-child(2) .v{color:var(--violet)} .kpis div:nth-child(3) .v{color:var(--pink)} .kpis div:nth-child(4) .v{color:var(--sky)}
-.kpis .l{font-weight:600;font-size:15px;line-height:1.5}
-.kpis .d{font-family:var(--f-mono);font-size:12px;color:var(--faint);line-height:1.45}
-@media (max-width:860px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.kpis div:nth-child(2){border-right:0}.kpis div:nth-child(-n+2){border-bottom:1px solid var(--line)}}
-@media (max-width:400px){.kpis div{padding:14px 12px}.kpis .l{font-size:14px}.kpis .d{font-size:11px}}
+/* trust */
+.trust{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:14px;margin-top:clamp(40px,5vw,64px);align-items:start}
+@media (max-width:960px){.trust{grid-template-columns:1fr}}
+.ig-card{background:var(--brand-soft);border:1px solid var(--line);border-radius:20px;padding:clamp(18px,2.4vw,26px)}
+.ig-head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 14px;align-items:baseline}
+.ig-head b{font:800 16px/1.4 var(--f-display);color:var(--brand-ink)}
+.ig-head span{font:500 13px/1.4 var(--f-mono);color:var(--faint)}
+.ig-stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 16px;margin-top:16px}
+.ig-stats div{min-width:0}
+.ig-stats .v{display:block;font:900 clamp(21px,2.3vw,30px)/1.15 var(--f-display);color:var(--ink);white-space:nowrap}
+.ig-stats .l{font-size:14px;color:var(--muted)}
+.ig-foot{margin-top:14px;font-size:13.5px;color:var(--faint);line-height:1.6}
+.facts-col{display:grid;gap:14px}
+.fact-item{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px 20px}
+.fact-item b{display:block;font:800 16px/1.45 var(--f-display);margin-bottom:4px}
+.fact-item span{font-size:14px;color:var(--muted);line-height:1.6;display:block}
+/* needs */
 .needs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:clamp(28px,3vw,40px)}
 @media (max-width:900px){.needs{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:420px){.needs{grid-template-columns:1fr}}
 .need{display:flex;flex-direction:column;gap:4px;padding:16px 18px;border:1px solid var(--line);border-radius:14px;background:var(--card);text-decoration:none;transition:border-color .15s,background .15s}
-.need:hover{border-color:var(--violet);background:var(--soft2)}
+.need:hover{border-color:var(--accent);background:var(--brand-soft)}
 .need-q{font:800 17px/1.4 var(--f-display)}
-.need-a{font-size:13.5px;color:var(--violet)}
-.svc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.need-a{font-size:14px;color:var(--accent)}
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;align-items:start}
 @media (max-width:860px){.svc-grid{grid-template-columns:1fr}}
 .svc{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,2.6vw,32px);display:flex;flex-direction:column;gap:18px;min-width:0;scroll-margin-top:calc(var(--nav-h) + 16px);transition:box-shadow .3s,border-color .3s}
-.svc.flash{border-color:var(--violet);box-shadow:0 0 0 4px var(--soft)}
+.svc.flash{border-color:var(--accent);box-shadow:0 0 0 4px var(--brand-soft)}
 .svc:focus{outline:none}
 .svc-no{font:600 12.5px/1 var(--f-mono);letter-spacing:.1em;text-transform:uppercase;color:var(--faint);display:flex;gap:10px;align-items:center}
 .svc-no span{color:var(--accent)}
 .svc h3{font-size:clamp(26px,2.6vw,34px);font-weight:900;line-height:1.2;margin-top:-6px}
 .svc-one{font-size:17px;line-height:1.7;font-weight:500}
-.hl{font-size:15px;line-height:1.65;background:var(--soft2);border-left:3px solid var(--violet);padding:10px 14px;border-radius:0 10px 10px 0}
-.svc-fit p{font-size:16px;color:var(--muted)}
-.svc-fit,.svc-items{border-top:1px solid var(--line);padding-top:16px}
-.svc-items ul{display:grid;gap:6px}
-.svc-items li{position:relative;padding-left:18px;font-size:16px;line-height:1.6}
-.svc-items li::before{content:"";position:absolute;left:2px;top:.72em;width:6px;height:6px;border-radius:50%;background:var(--violet)}
-.music-sub{margin-top:14px;padding:12px 14px;border:1px dashed var(--violet);border-radius:12px}
-.ms-h{font:800 15px/1.4 var(--f-display);color:var(--violet)}
+.svc-block{border-top:1px solid var(--line);padding-top:16px}
+.scen{display:grid;gap:8px}
+.scen li{font-size:16px;line-height:1.55;padding:10px 14px;background:var(--brand-soft);border-radius:10px}
+.dots{display:grid;gap:6px}
+.dots li{position:relative;padding-left:18px;font-size:16px;line-height:1.6}
+.dots li::before{content:"";position:absolute;left:2px;top:.72em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.sub-grp+.sub-grp{margin-top:16px}
+.sub-h{font:800 15.5px/1.4 var(--f-display);margin-bottom:6px}
+.sub-note{font-size:14.5px;line-height:1.6;color:var(--brand-ink);background:var(--brand-soft);border-left:3px solid var(--brand);padding:8px 12px;border-radius:0 8px 8px 0;margin-bottom:8px}
+.music-sub{margin-top:14px;padding:12px 14px;border:1px dashed var(--accent);border-radius:12px}
+.ms-h{font:800 15px/1.4 var(--f-display);color:var(--accent)}
 .ms-i{font-size:15px;line-height:1.6;margin-top:2px}
 .svc-more{border-top:1px solid var(--line);padding-top:4px}
-.svc-more summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;font:600 15px/1.4 var(--f-body);color:var(--ink);border-radius:6px}
-.svc-more summary::-webkit-details-marker{display:none}
-.svc-more summary::after{content:"+";font:400 22px/1 var(--f-body);color:var(--violet);transition:transform .2s}
-.svc-more[open] summary::after{transform:rotate(45deg)}
-.svc-more summary:hover{color:var(--accent)}
-.more-body{display:grid;gap:12px;padding-bottom:6px;font-size:15.5px;line-height:1.7}
-.fine li{position:relative;padding-left:16px;font-size:14px;color:var(--muted);line-height:1.65}
-.fine li+li{margin-top:4px}
+.svc-more summary,.faq summary,.founder summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:12px 0;font:600 15.5px/1.5 var(--f-body);color:var(--ink);border-radius:6px}
+.svc-more summary::-webkit-details-marker,.faq summary::-webkit-details-marker,.founder summary::-webkit-details-marker{display:none}
+.svc-more summary::after,.faq summary::after,.founder summary::after{content:"+";font:400 22px/1 var(--f-body);color:var(--accent);transition:transform .2s;flex-shrink:0}
+.svc-more[open] summary::after,.faq details[open] summary::after,.founder details[open] summary::after{transform:rotate(45deg)}
+.svc-more summary:hover,.faq summary:hover{color:var(--accent)}
+.more-body{display:grid;gap:12px;margin:0 0 8px;font-size:15.5px;line-height:1.7}
+.more-body dt{font:600 13.5px/1.4 var(--f-body);color:var(--faint);margin-bottom:2px}
+.more-body dd{margin:0}
+.fine li{position:relative;padding-left:16px}
 .fine li::before{content:"・";position:absolute;left:0}
-.svc-cta{margin-top:auto;align-self:flex-start}
+.svc-cta{align-self:flex-start}
 .svc-note{margin-top:22px;font-size:15px;color:var(--muted)}
-.cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border-top:1px solid var(--ink)}
+/* cases */
+.cases{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--ink)}
 @media (max-width:860px){.cases{grid-template-columns:1fr}}
 .case{padding:26px 28px 28px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:10px;min-width:0}
 .case:nth-child(2n){padding-left:28px;padding-right:0;border-left:1px solid var(--line)}
 @media (max-width:860px){.case,.case:nth-child(2n){padding:22px 0;border-left:0}}
-.case-tag{align-self:flex-start;font:600 13px/1 var(--f-body);color:var(--violet);background:var(--soft2);border-radius:999px;padding:7px 12px}
+.case-top{display:flex;gap:10px;align-items:center}
+.kind{font:600 12.5px/1 var(--f-body);border-radius:6px;padding:6px 9px}
+.kind.co{background:var(--accent);color:var(--accent-ink)}
+.kind.pp{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.case .yr{font:500 13.5px/1 var(--f-mono);color:var(--accent)}
 .case h3{font-size:clamp(21px,2vw,26px);font-weight:900;line-height:1.3}
-.case-meta{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:14px;color:var(--faint)}
-.case-meta .num{font-family:var(--f-mono);color:var(--accent)}
+.case-tags{display:flex;flex-wrap:wrap;gap:6px}
+.case-tags span{font:600 13px/1 var(--f-body);color:var(--brand-ink);background:var(--brand-soft);border-radius:999px;padding:7px 11px}
 .case dl{margin:4px 0 0;display:grid;gap:8px}
 .c-row{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:12px}
 .c-row dt{font-size:14px;color:var(--faint);font-weight:600;padding-top:1px}
 .c-row dd{margin:0;font-size:16px;line-height:1.7}
+.c-row .svc-ref{font-size:14.5px;color:var(--muted)}
 @media (max-width:420px){.c-row{grid-template-columns:1fr;gap:0}}
 .cases-foot{margin-top:18px;font-size:14px;color:var(--faint)}
-.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--ink);counter-reset:s}
+/* process */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--ink)}
 .steps li{padding:22px 22px 24px 0;min-width:0;display:flex;flex-direction:column;gap:8px}
 .steps li+li{padding-left:22px;border-left:1px solid var(--line)}
 .steps .n{font:600 13px/1 var(--f-mono);color:var(--accent);letter-spacing:.1em}
@@ -184,37 +210,33 @@ ul,ol{margin:0;padding:0;list-style:none}
 .steps p{font-size:16px;color:var(--muted)}
 @media (max-width:900px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}.steps li:nth-child(3){padding-left:0;border-left:0}.steps li:nth-child(-n+2){border-bottom:1px solid var(--line)}}
 @media (max-width:520px){.steps{grid-template-columns:1fr}.steps li,.steps li+li{padding:18px 0;border-left:0;border-bottom:1px solid var(--line)}}
-.process-note{margin-top:22px;font-size:16px;padding:16px 18px;background:var(--soft2);border-radius:12px;max-width:52em}
-.process-note small{display:block;margin-top:4px;font-size:14px;color:var(--muted)}
+.process-note{margin-top:22px;font-size:16px;padding:16px 18px;background:var(--brand-soft);border-radius:12px;max-width:52em}
+/* about */
 .about{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:clamp(32px,5vw,72px)}
 @media (max-width:900px){.about{grid-template-columns:1fr}}
 .about .intro{font-size:clamp(17px,1.5vw,19px);line-height:1.8}
 .belief{margin-top:28px;padding:22px 0 0;border-top:1px solid var(--line)}
-.belief .q{font:900 clamp(20px,2.1vw,26px)/1.5 var(--f-display)}
-.belief .q .g{background-image:linear-gradient(100deg,var(--accent),var(--violet) 55%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}
+.belief .q{font:900 clamp(20px,2.1vw,26px)/1.5 var(--f-display);color:var(--brand-ink)}
 .belief p+p{margin-top:8px;color:var(--muted)}
 .belief .en{font:500 12.5px/1.4 var(--f-mono);letter-spacing:.08em;color:var(--faint);margin-top:12px}
 .founder{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,2.6vw,30px)}
-.founder .role{font:600 12.5px/1.4 var(--f-mono);letter-spacing:.1em;color:var(--violet);text-transform:uppercase}
+.founder .role{font:600 12.5px/1.4 var(--f-mono);letter-spacing:.1em;color:var(--accent);text-transform:uppercase}
 .founder h3{font-size:clamp(26px,2.6vw,32px);font-weight:900;margin-top:6px}
 .founder .ttl{font-size:15px;color:var(--faint)}
 .founder ul.pts{margin-top:18px;display:grid;gap:10px}
 .founder ul.pts li{position:relative;padding-left:18px;font-size:16px;line-height:1.7}
-.founder ul.pts li::before{content:"";position:absolute;left:2px;top:.72em;width:6px;height:6px;border-radius:50%;background:var(--violet)}
+.founder ul.pts li::before{content:"";position:absolute;left:2px;top:.72em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
 .founder details{margin-top:18px;border-top:1px solid var(--line)}
-.founder summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;padding:14px 0 10px;font:600 15px/1.4 var(--f-body)}
-.founder summary::-webkit-details-marker{display:none}
-.founder summary::after{content:"+";font:400 22px/1 var(--f-body);color:var(--violet);transition:transform .2s}
-.founder details[open] summary::after{transform:rotate(45deg)}
 .facts{display:grid;gap:16px;padding-bottom:4px}
-.facts h4{font:600 13px/1.4 var(--f-body);color:var(--faint);margin:0 0 6px}
+.facts h4{font:600 13.5px/1.4 var(--f-body);color:var(--faint);margin:0 0 6px}
 .facts li{display:flex;justify-content:space-between;gap:12px;font-size:15px;line-height:1.6;padding:4px 0;border-bottom:1px dashed var(--line)}
-.facts li em{font-style:normal;color:var(--violet);font-size:14px;text-align:right;flex-shrink:0;max-width:50%}
+.facts li em{font-style:normal;color:var(--accent);font-size:14px;text-align:right;flex-shrink:0;max-width:50%}
+/* works */
 .chain{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
 .chain button{font:600 14.5px/1.2 var(--f-body);border:1px solid var(--line);background:var(--card);color:var(--ink);padding:11px 16px;border-radius:999px;cursor:pointer;min-height:44px}
-.chain button:hover{border-color:var(--violet);color:var(--violet)}
+.chain button:hover{border-color:var(--accent);color:var(--accent)}
 .chain button[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
-.works-note{font-size:14.5px;color:var(--muted);margin-bottom:18px;max-width:52em}
+.works-note{font-size:15px;color:var(--muted);margin-bottom:18px;max-width:52em}
 .works{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
 @media (max-width:860px){.works{grid-template-columns:1fr}}
 .wcol{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px 14px;min-width:0}
@@ -230,22 +252,37 @@ ul,ol{margin:0;padding:0;list-style:none}
 .wcol .role{font-size:14px;color:var(--muted)}
 .more-btn{margin-top:10px;width:100%;font:600 14px/1 var(--f-body);background:transparent;color:var(--accent);border:1px solid var(--line);border-radius:10px;padding:12px;cursor:pointer;min-height:44px}
 .more-btn:hover{border-color:var(--accent)}
-.contact{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(28px,4vw,56px);align-items:start}
+/* faq */
+.faq{max-width:820px;border-top:1px solid var(--ink)}
+.faq details{border-bottom:1px solid var(--line)}
+.faq summary{padding:18px 0;font:800 17px/1.5 var(--f-display)}
+.faq details p{padding:0 0 18px;font-size:16px;color:var(--muted);max-width:44em}
+/* contact */
+.contact{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,6fr);gap:clamp(28px,4vw,56px);align-items:start}
 @media (max-width:900px){.contact{grid-template-columns:1fr}}
 .contact h2{font-size:clamp(32px,4.4vw,54px);line-height:1.18;font-weight:900}
 .contact .lede{margin-top:16px;font-size:clamp(16px,1.4vw,18px);color:var(--muted);max-width:34em}
-.picked{margin-top:20px;display:none;align-items:center;flex-wrap:wrap;gap:8px;font-size:15px}
+.picked{margin-top:22px;display:none;align-items:center;flex-wrap:wrap;gap:8px;font-size:15.5px}
 .picked.on{display:flex}
-.picked b{background:var(--soft);color:var(--accent);border-radius:999px;padding:6px 12px;font-weight:600}
-.picked button{font:500 13.5px/1 var(--f-body);background:none;border:0;color:var(--faint);text-decoration:underline;cursor:pointer;padding:6px}
+.picked b{background:var(--brand-soft);color:var(--brand-ink);border:1px solid var(--brand);border-radius:999px;padding:6px 12px;font-weight:600}
+.picked button{font:500 14px/1 var(--f-body);background:none;border:0;color:var(--faint);text-decoration:underline;cursor:pointer;padding:8px 6px}
+.qr-panel{margin-top:26px;display:none;gap:18px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px}
+@media (min-width:901px){.qr-panel{display:flex}}
+.qr-box{flex-shrink:0;width:132px;height:132px;background:#fff;border-radius:10px;padding:6px;border:1px solid var(--line)}
+.qr-box svg{display:block;width:100%;height:100%}
+.qr-text b{display:block;font:800 16px/1.4 var(--f-display)}
+.qr-text p{font-size:14.5px;color:var(--muted);line-height:1.6;margin-top:4px}
+.qr-text .kw-hint{color:var(--ink)}
+.kw{white-space:nowrap;font-weight:700;color:var(--brand-ink);background:var(--brand-soft);border-radius:6px;padding:1px 6px}
 .cbox{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:clamp(22px,2.6vw,30px);display:flex;flex-direction:column;gap:14px;min-width:0}
-.cbox .mail{font:800 clamp(16px,4.4vw,24px)/1.3 var(--f-display);overflow-wrap:anywhere;user-select:all}
 .cbox .row{display:flex;flex-wrap:wrap;gap:8px}
-.cbox .hint{font-size:14px;color:var(--muted)}
+.cbox .hint{font-size:14.5px;color:var(--muted);line-height:1.65}
 .cbox hr{border:0;border-top:1px solid var(--line);margin:4px 0}
+.cbox .mail{font:800 clamp(16px,4.4vw,22px)/1.3 var(--f-display);overflow-wrap:anywhere;user-select:all}
+.ch-title{font:800 15px/1.4 var(--f-display);color:var(--ink)}
+.fallback{font-size:14px;color:var(--muted);background:var(--brand-soft);border-radius:10px;padding:10px 12px;line-height:1.65}
 .ig{display:flex;justify-content:space-between;align-items:center;gap:10px;text-decoration:none;font-size:15px}
 .ig span{color:var(--faint);font-size:14px}
-.btn.line{background:#06C755;border-color:#06C755;color:#fff}.btn.line:hover{background:#05A648;border-color:#05A648;color:#fff}
 .ig b{font-weight:600}
 .ig:hover b{color:var(--accent)}
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);opacity:0;background:var(--ink);color:var(--paper);font:600 14.5px/1.4 var(--f-body);padding:12px 18px;border-radius:12px;box-shadow:var(--shadow);pointer-events:none;transition:opacity .2s,transform .2s;z-index:80;max-width:calc(100% - 32px)}
@@ -253,14 +290,7 @@ ul,ol{margin:0;padding:0;list-style:none}
 footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 .foot{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px}
 .foot .logo-lockup{width:170px}
-.foot-r{display:flex;flex-direction:column;align-items:flex-end;gap:10px;text-align:right}
-@media (max-width:600px){.foot-r{align-items:flex-start;text-align:left}}
-.counter{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:7px 14px;font:500 12px/1 var(--f-mono);letter-spacing:.06em;color:var(--faint)}
-.counter[hidden]{display:none}
-.counter b{color:var(--ink);font-weight:600;margin-left:4px}
-.counter .dot{width:6px;height:6px;border-radius:50%;background:var(--violet)}
-.counter .sep{opacity:.4}
-.legal{font-size:13px;color:var(--faint)}
+.legal{font-size:13.5px;color:var(--faint)}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 </style>
 </head>
@@ -268,9 +298,7 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <a class="skip" href="#main">跳到主要內容</a>
 <header class="nav">
 <div class="wrap">
-<a class="brand" href="#top" aria-label="溫室創意 Revive Creative，回到頂端">
-<span class="logo logo-mark" aria-hidden="true"></span><b>溫室創意</b><small>REVIVE CREATIVE</small>
-</a>
+<a class="brand" href="#top" aria-label="溫室創意 Revive Creative，回到頂端"><span class="logo logo-mark" aria-hidden="true"></span><b>溫室創意</b><small>REVIVE CREATIVE</small></a>
 <nav class="menu" id="menu" aria-label="主要導覽">
 <a href="#services">服務項目</a>
 <a href="#cases">精選案例</a>
@@ -278,7 +306,7 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <a href="#about">關於溫室</a>
 <a href="#contact">聯絡我們</a>
 </nav>
-<a class="btn small" href="#contact">聊聊合作需求</a>
+<a class="btn small" href="#contact" data-track="nav_contact_click">聊聊合作需求</a>
 <button type="button" class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="menu">選單</button>
 </div>
 </header>
@@ -292,20 +320,30 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <p class="sub2">無論是建立品牌、推出內容、籌辦活動，或申請補助，都可以從你現在需要的開始。</p>
 <div class="actions">
 <a class="btn" href="#services">看看服務項目</a>
-<a class="btn ghost" href="#contact">聊聊合作需求</a>
+<a class="btn ghost" href="#contact" data-track="hero_contact_click">聊聊合作需求</a>
 </div>
 <p class="tagline">Revive your creativity and let it thrive.</p>
 </div>
 <nav class="hero-index" aria-label="服務入口">
 <p class="cap">SERVICES · 四大服務</p>
-<ul><li><a href="#svc-brand"><span class="hi-no">01</span><span class="hi-t">品牌定位與企劃</span><span class="hi-d">定位・品牌故事・溝通文案</span></a></li><li><a href="#svc-content"><span class="hi-no">02</span><span class="hi-t">內容製作與行銷宣傳</span><span class="hi-d">內容企劃・節目・宣傳・音樂製作</span></a></li><li><a href="#svc-event"><span class="hi-no">03</span><span class="hi-t">活動企劃與製作統籌</span><span class="hi-d">記者會・發表會・演出統籌</span></a></li><li><a href="#svc-proposal"><span class="hi-no">04</span><span class="hi-t">補助企劃與合作提案</span><span class="hi-d">跨產業補助・簡報・合作媒合</span></a></li></ul>
+<ul><li><a href="#svc-brand" data-track="hero_service_click" data-service="品牌定位與企劃"><span class="hi-no">01</span><span class="hi-t">品牌定位與企劃</span><span class="hi-d">公司介紹・品牌定位・溝通企劃</span></a></li><li><a href="#svc-content" data-track="hero_service_click" data-service="內容製作與行銷宣傳"><span class="hi-no">02</span><span class="hi-t">內容製作與行銷宣傳</span><span class="hi-d">推出宣傳・社群與節目內容・音樂製作</span></a></li><li><a href="#svc-event" data-track="hero_service_click" data-service="活動企劃與製作統籌"><span class="hi-no">03</span><span class="hi-t">活動企劃與製作統籌</span><span class="hi-d">記者會・發表會・演出統籌</span></a></li><li><a href="#svc-proposal" data-track="hero_service_click" data-service="補助企劃與合作提案"><span class="hi-no">04</span><span class="hi-t">補助企劃與合作提案</span><span class="hi-d">跨產業補助・簡報・合作媒合</span></a></li></ul>
 </nav>
 </div>
-<div class="kpis" aria-label="累積成果">
-<div><span class="v num">30M<small>+</small></span><span class="l">補助案撰寫與資源媒合累積規模</span><span class="d">Grant Proposal &amp; Funding Matching</span></div>
-<div><span class="v num">50<small>+</small></span><span class="l">專輯、單曲、企劃與製作項目</span><span class="d">Music / A&amp;R / Production</span></div>
-<div><span class="v num">20<small>+</small></span><span class="l">節目、活動與內容專案</span><span class="d">Programs / Events / Content</span></div>
-<div><span class="v num">200<small>萬+</small></span><span class="l">Instagram 單月觀看</span><span class="d">@revivecreative_tw・零廣告投放</span></div>
+<div class="trust" aria-label="已確認的成果與經歷">
+<div class="ig-card">
+<div class="ig-head"><b>Instagram @revivecreative_tw</b><span>2025/10/15–11/13（30 天）</span></div>
+<div class="ig-stats">
+<div><span class="v num">約 200.6 萬</span><span class="l">觀看次數</span></div>
+<div><span class="v num">約 24.1 萬</span><span class="l">互動次數</span></div>
+<div><span class="v num">約 112.6 萬</span><span class="l">觸及帳號</span></div>
+<div><span class="v num">92%</span><span class="l">觀看來自非粉絲</span></div>
+</div>
+<p class="ig-foot">該期間未投放廣告。以上為單一期間的帳號數據，各指標獨立計算，不代表每月固定表現。</p>
+</div>
+<div class="facts-col">
+<div class="fact-item"><b>2026 年 3 件補助企劃通過審查</b><span>溫室創意承接撰寫，涵蓋音樂製作、品牌經紀發展與行銷推廣補助。</span></div>
+<div class="fact-item"><b>主理人擔任 A&amp;R 企劃的專輯入圍金曲獎</b><span>AZ 李孝祖《美式教育》入圍第 35 屆金曲獎最佳原住民專輯獎。</span></div>
+</div>
 </div>
 </section>
 <section class="section" id="services">
@@ -315,71 +353,74 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <h2>你需要的專業，<br>從這裡找到。</h2>
 <p class="lede">從品牌與內容，到活動、提案與合作，提供單項支援，也能依需求整合執行。</p>
 </div>
-<nav class="needs" aria-label="依需求找服務"><a class="need" href="#svc-brand"><span class="need-q">想建立或調整品牌</span><span class="need-a">品牌定位與企劃 ↓</span></a><a class="need" href="#svc-content"><span class="need-q">想做內容或宣傳</span><span class="need-a">內容製作與行銷宣傳 ↓</span></a><a class="need" href="#svc-event"><span class="need-q">想辦一場活動</span><span class="need-a">活動企劃與製作統籌 ↓</span></a><a class="need" href="#svc-proposal"><span class="need-q">想申請補助或提出合作</span><span class="need-a">補助企劃與合作提案 ↓</span></a></nav>
+<nav class="needs" aria-label="依需求找服務"><a class="need" href="#svc-brand" data-track="need_nav_click" data-service="品牌定位與企劃"><span class="need-q">想建立或調整品牌</span><span class="need-a">品牌定位與企劃 ↓</span></a><a class="need" href="#svc-content" data-track="need_nav_click" data-service="內容製作與行銷宣傳"><span class="need-q">想做內容或宣傳</span><span class="need-a">內容製作與行銷宣傳 ↓</span></a><a class="need" href="#svc-event" data-track="need_nav_click" data-service="活動企劃與製作統籌"><span class="need-q">想辦一場活動</span><span class="need-a">活動企劃與製作統籌 ↓</span></a><a class="need" href="#svc-proposal" data-track="need_nav_click" data-service="補助企劃與合作提案"><span class="need-q">想申請補助或提出合作</span><span class="need-a">補助企劃與合作提案 ↓</span></a></nav>
 <div class="svc-grid">
 <article class="svc" id="svc-brand" tabindex="-1">
 <p class="svc-no"><span>01</span>Brand Strategy</p>
 <h3>品牌定位與企劃</h3>
 <p class="svc-one">釐清品牌方向，把特色整理成清楚一致的表達。</p>
-<div class="svc-fit"><span class="lbl">適合需求</span><p>正在建立品牌、整理既有服務，或希望讓產品與專業更容易被理解。</p></div>
-<div class="svc-items"><span class="lbl">可委託項目</span><ul><li>品牌定位與核心訊息</li><li>品牌故事與文案</li><li>產品、服務與專案溝通企劃</li><li>品牌內容與社群溝通策略</li><li>視覺方向規劃與協作團隊統籌</li></ul></div>
+<div class="svc-block"><p class="lbl">常見委託</p><ul class="scen"><li>公司介紹與服務文案整理</li><li>品牌定位與核心訊息調整</li><li>新品牌或新服務的溝通企劃</li></ul></div>
+<div class="svc-block"><p class="lbl">主要工作項目</p><ul class="dots"><li>品牌定位與核心訊息</li><li>品牌故事與文案</li><li>產品、服務與專案溝通企劃</li><li>品牌內容與社群溝通策略</li><li>視覺方向規劃與協作團隊統籌</li></ul></div>
 <details class="svc-more">
-<summary>交付內容與合作說明</summary>
-<div class="more-body">
-<p><span class="lbl">依委託範圍可交付</span>品牌定位與溝通架構、品牌故事、產品或服務文案、內容方向，或視覺協作需求與執行規劃。</p>
-<ul class="fine"><li>適用於不同產業的公司、個人品牌與專案團隊，依需求評估合作方式。</li><li>視覺部分由溫室負責方向規劃與協作團隊統籌；實際設計製作由合作設計團隊執行，依需求另行報價。</li></ul>
-</div>
+<summary>交付內容與分工方式</summary>
+<dl class="more-body">
+<div><dt>依委託範圍可交付</dt><dd>品牌定位與溝通架構、品牌故事、產品或服務文案、內容方向，或視覺協作需求與執行規劃。</dd></div>
+<div><dt>分工方式</dt><dd>溫室負責定位、文案與溝通企劃；視覺方向由溫室規劃與統籌，實際設計製作由合作設計團隊執行。</dd></div>
+<div><dt>需依個案確認</dt><dd><ul class="fine"><li>設計製作與其他外部協作費用，依需求另行報價。</li></ul></dd></div>
+</dl>
 </details>
-<a class="btn svc-cta" href="#contact" data-service="品牌定位與企劃">洽談此項服務 <span aria-hidden="true">→</span></a>
+<a class="btn svc-cta" href="#contact" data-service="品牌定位與企劃" data-kw="品牌">洽談此項服務 <span aria-hidden="true">→</span></a>
 </article>
 <article class="svc" id="svc-content" tabindex="-1">
 <p class="svc-no"><span>02</span>Content &amp; Promotion</p>
 <h3>內容製作與行銷宣傳</h3>
 <p class="svc-one">把品牌與主題轉化為內容，規劃適合的傳播方式。</p>
-<div class="svc-fit"><span class="lbl">適合需求</span><p>準備推出品牌、產品、作品或節目，需要內容企劃、製作或宣傳支援。</p></div>
-<div class="svc-items"><span class="lbl">可委託項目</span><ul><li>內容主題與系列企劃</li><li>節目、Podcast 與影音內容企劃製作</li><li>社群內容企劃</li><li>媒體議題、新聞稿與宣傳規劃</li><li>整合行銷與發行宣傳</li></ul><div class="music-sub"><p class="ms-h">音樂企劃與製作</p><p class="ms-i">音樂企劃・A&amp;R・配唱製作・合聲編寫・詞曲創作</p></div></div>
+<div class="svc-block"><p class="lbl">常見委託</p><ul class="scen"><li>產品、作品或專案推出宣傳</li><li>系列社群內容與媒體議題企劃</li><li>節目、Podcast 與影音內容企劃製作</li></ul></div>
+<div class="svc-block"><p class="lbl">主要工作項目</p><ul class="dots"><li>內容主題與系列企劃</li><li>節目、Podcast 與影音內容企劃製作</li><li>社群內容企劃</li><li>媒體議題、新聞稿與宣傳規劃</li><li>整合行銷與發行宣傳</li></ul><div class="music-sub"><p class="ms-h">音樂企劃與製作</p><p class="ms-i">音樂企劃・A&amp;R・配唱製作・合聲編寫・詞曲創作</p></div></div>
 <details class="svc-more">
-<summary>交付內容與合作說明</summary>
-<div class="more-body">
-<p><span class="lbl">依委託範圍可交付</span>內容企劃、製作規劃與約定素材、宣傳策略與排程、新聞稿及社群內容，或約定的音樂製作成果。</p>
-<ul class="fine"><li>拍攝、剪輯、設計、廣告投放與音樂後製不預設包含在每次委託中，各項依報價確認。</li></ul>
-</div>
+<summary>交付內容與分工方式</summary>
+<dl class="more-body">
+<div><dt>依委託範圍可交付</dt><dd>內容企劃、製作規劃與約定素材、宣傳策略與排程、新聞稿及社群內容，或約定的音樂製作成果。</dd></div>
+<div><dt>分工方式</dt><dd>溫室負責內容企劃與製作統籌；拍攝、剪輯、設計與廣告投放可由協作團隊執行。</dd></div>
+<div><dt>需依個案確認</dt><dd><ul class="fine"><li>拍攝、剪輯、設計、廣告投放與音樂後製是否包含，依報價確認。</li></ul></dd></div>
+</dl>
 </details>
-<a class="btn svc-cta" href="#contact" data-service="內容製作與行銷宣傳">洽談此項服務 <span aria-hidden="true">→</span></a>
+<a class="btn svc-cta" href="#contact" data-service="內容製作與行銷宣傳" data-kw="內容">洽談此項服務 <span aria-hidden="true">→</span></a>
 </article>
 <article class="svc" id="svc-event" tabindex="-1">
 <p class="svc-no"><span>03</span>Events &amp; Production</p>
 <h3>活動企劃與製作統籌</h3>
 <p class="svc-one">從活動概念到現場流程，協調團隊與執行細節。</p>
-<div class="svc-fit"><span class="lbl">適合需求</span><p>準備舉辦品牌、文化、娛樂或演出活動，需要企劃、統籌或現場執行支援。</p></div>
-<div class="svc-items"><span class="lbl">可委託項目</span><ul><li>品牌與文化活動企劃</li><li>記者會、發表會與簽售會統籌</li><li>演出與演唱會製作統籌</li><li>活動流程與現場執行</li><li>協作團隊對接</li><li>活動與節目主持</li></ul></div>
+<div class="svc-block"><p class="lbl">常見委託</p><ul class="scen"><li>記者會、發表會與品牌文化活動</li><li>演出與演唱會製作統籌</li><li>已有企劃，需要團隊協調與現場執行</li></ul></div>
+<div class="svc-block"><p class="lbl">主要工作項目</p><ul class="dots"><li>品牌與文化活動企劃</li><li>記者會、發表會與簽售會統籌</li><li>演出與演唱會製作統籌</li><li>活動流程與現場執行</li><li>協作團隊對接</li><li>活動與節目主持</li></ul></div>
 <details class="svc-more">
-<summary>交付內容與合作說明</summary>
-<div class="more-body">
-<p><span class="lbl">依委託範圍可交付</span>活動企劃、執行排程、流程表、團隊分工與協調，或約定範圍的現場統籌及主持。</p>
-<ul class="fine"><li>場地、硬體、藝人邀約與現場人力不預設包含，依專案範圍確認。</li></ul>
-</div>
+<summary>交付內容與分工方式</summary>
+<dl class="more-body">
+<div><dt>依委託範圍可交付</dt><dd>活動企劃、執行排程、流程表、團隊分工與協調，或約定範圍的現場統籌及主持。</dd></div>
+<div><dt>分工方式</dt><dd>溫室負責企劃、流程與團隊協調，可擔任現場統籌及主持。</dd></div>
+<div><dt>需依個案確認</dt><dd><ul class="fine"><li>場地、硬體、藝人邀約與現場人力不預設包含，依專案範圍確認。</li></ul></dd></div>
+</dl>
 </details>
-<a class="btn svc-cta" href="#contact" data-service="活動企劃與製作統籌">洽談此項服務 <span aria-hidden="true">→</span></a>
+<a class="btn svc-cta" href="#contact" data-service="活動企劃與製作統籌" data-kw="活動">洽談此項服務 <span aria-hidden="true">→</span></a>
 </article>
 <article class="svc" id="svc-proposal" tabindex="-1">
 <p class="svc-no"><span>04</span>Grants &amp; Partnerships</p>
 <h3>補助企劃與合作提案</h3>
 <p class="svc-one">把想做的事，整理成具體、有結構的計畫與合作方案。</p>
-<p class="hl">補助企劃不限音樂與文化領域，可依不同產業、申請資格及計畫內容評估。</p>
-<div class="svc-fit"><span class="lbl">適合需求</span><p>需要申請補助、整理發展計畫、提出品牌合作，或對接合適的合作資源。</p></div>
-<div class="svc-items"><span class="lbl">可委託項目</span><ul><li>跨產業補助案企劃</li><li>計畫架構、內容撰寫與預算規劃</li><li>商業簡報與合作提案</li><li>品牌合作與資源媒合</li><li>跨國合作與製作媒合</li><li>大中華區詞曲版權代理與作品提案</li></ul></div>
+<div class="svc-block"><p class="lbl">常見委託</p><ul class="scen"><li>已有補助目標，需要計畫書與預算</li><li>已有計畫，希望評估補助與合作資源</li><li>商業簡報與品牌合作提案</li></ul></div>
+<div class="svc-block"><p class="lbl">主要工作項目</p><div class="sub-grp"><p class="sub-h">A. 計畫與提案</p><p class="sub-note">補助企劃不限音樂與文化領域，依申請資格及計畫內容評估。</p><ul class="dots"><li>跨產業補助案企劃</li><li>計畫架構、內容撰寫與預算規劃</li><li>商業簡報與合作提案</li></ul></div><div class="sub-grp"><p class="sub-h">B. 合作與媒合</p><ul class="dots"><li>品牌合作與資源媒合</li><li>跨國合作與製作媒合</li><li>大中華區詞曲版權代理與作品提案</li></ul></div></div>
 <details class="svc-more">
-<summary>交付內容與合作說明</summary>
-<div class="more-body">
-<p><span class="lbl">依委託範圍可交付</span>計畫書、預算架構、商業簡報、合作提案，或約定範圍的合作協調與作品提案。</p>
-<ul class="fine"><li>補助是否適合申請，依各計畫資格與內容評估；審查結果由主辦單位決定，無法保證通過。</li><li>送件協作、變更申請、核銷與結案等工作，依個別委託範圍確認。</li><li>合作媒合協助對接合適的資源，不保證成交，也不以聯絡名單作為交付成果。</li></ul>
-</div>
+<summary>交付內容與分工方式</summary>
+<dl class="more-body">
+<div><dt>依委託範圍可交付</dt><dd>計畫書、預算架構、商業簡報、合作提案，或約定範圍的合作協調與作品提案。</dd></div>
+<div><dt>分工方式</dt><dd>溫室負責計畫架構、撰寫與提案整理；送件協作、變更申請、核銷與結案，依個別委託範圍確認。</dd></div>
+<div><dt>需依個案確認</dt><dd><ul class="fine"><li>補助審查結果由主辦單位決定，無法保證通過。</li><li>合作媒合協助對接合適資源，不保證成交，也不以聯絡名單作為交付成果。</li></ul></dd></div>
+</dl>
 </details>
-<a class="btn svc-cta" href="#contact" data-service="補助企劃與合作提案">洽談此項服務 <span aria-hidden="true">→</span></a>
+<a class="btn svc-cta" href="#contact" data-service="補助企劃與合作提案" data-kw="補助">洽談此項服務 <span aria-hidden="true">→</span></a>
 </article>
 </div>
-<p class="svc-note">各項服務可單獨委託；實際工作範圍、交付內容與時程，依需求及報價確認。</p>
+<p class="svc-note">常見委託為情境參考，不是固定價格套裝，也不代表每案包含所有項目。各項服務可單獨委託；實際範圍、交付內容與時程依需求及報價確認。</p>
 </div>
 </section>
 <section class="section" id="cases">
@@ -387,45 +428,35 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <div class="sec-head">
 <p class="eyebrow">Selected Cases</p>
 <h2>做過的事，<br>說明我們能做什麼。</h2>
-<p class="lede">以下案例來自音樂與娛樂產業，標示實際負責的工作，方便你對照自己的需求。</p>
+<p class="lede">案例來自音樂與娛樂產業，標示實際負責的工作與對應服務，方便你對照自己的需求。</p>
 </div>
 <div class="cases">
 <article class="case">
-<p class="case-tag">活動統籌・宣傳規劃</p>
+<div class="case-top"><span class="kind co">公司承接</span><span class="num yr">2025</span></div>
 <h3>連穎 ERIN 首張專輯簽售記者會與行銷宣傳</h3>
-<p class="case-meta"><span class="num">2025</span><span>溫室創意承接</span></p>
-<dl>
-<div class="c-row"><dt>負責範圍</dt><dd>簽售記者會統籌、媒體擴散。</dd></div>
-</dl>
+<p class="case-tags"><span>活動統籌</span><span>媒體宣傳</span></p>
+<dl><div class="c-row"><dt>負責工作</dt><dd>簽售記者會統籌、媒體擴散。</dd></div><div class="c-row"><dt>對應服務</dt><dd class="svc-ref">活動企劃與製作統籌・內容製作與行銷宣傳</dd></div></dl>
 </article>
 <article class="case">
-<p class="case-tag">節目企劃・內容製作</p>
+<div class="case-top"><span class="kind co">公司承接</span><span class="num yr">2026</span></div>
+<h3>2026 年度補助企劃（3 案）</h3>
+<p class="case-tags"><span>補助計畫撰寫</span></p>
+<dl><div class="c-row"><dt>負責工作</dt><dd>《OPEN THAT BOX 脫口而出》音樂製作補助、《HUR+ 國際女團 IP 拓展計劃》星品牌經紀發展補助、《國語作業簿 #Original》行銷推廣補助的計畫撰寫。</dd></div><div class="c-row"><dt>可確認成果</dt><dd>三案皆通過審查。</dd></div><div class="c-row"><dt>對應服務</dt><dd class="svc-ref">補助企劃與合作提案</dd></div></dl>
+</article>
+<article class="case">
+<div class="case-top"><span class="kind pp">主理人參與</span><span class="num yr">2025</span></div>
 <h3>《音樂產業，你怎麼看？》</h3>
-<p class="case-meta"><span class="num">2025</span><span>主理人擔任製作人、內容企劃與主持</span></p>
-<dl>
-<div class="c-row"><dt>負責範圍</dt><dd>原創節目的主題企劃、製作與主持。</dd></div>
-</dl>
+<p class="case-tags"><span>節目企劃</span><span>內容製作</span><span>主持</span></p>
+<dl><div class="c-row"><dt>主理人角色</dt><dd>製作人、內容企劃、主持人。</dd></div><div class="c-row"><dt>負責工作</dt><dd>原創節目的主題企劃、製作與主持。</dd></div><div class="c-row"><dt>對應服務</dt><dd class="svc-ref">內容製作與行銷宣傳</dd></div></dl>
 </article>
 <article class="case">
-<p class="case-tag">補助計畫撰寫</p>
-<h3>2026 年度補助企劃</h3>
-<p class="case-meta"><span class="num">2026</span><span>溫室創意承接</span></p>
-<dl>
-<div class="c-row"><dt>負責範圍</dt><dd>《OPEN THAT BOX 脫口而出》音樂製作、《HUR+ 國際女團 IP 拓展計劃》星品牌經紀發展、《國語作業簿 #Original》行銷推廣等計畫撰寫。</dd></div>
-<div class="c-row"><dt>已知成果</dt><dd>上列三案皆通過審查。</dd></div>
-</dl>
-</article>
-<article class="case">
-<p class="case-tag">音樂企劃・製作</p>
+<div class="case-top"><span class="kind pp">主理人參與</span><span class="num yr">2021–2023</span></div>
 <h3>AZ 李孝祖《美式教育》</h3>
-<p class="case-meta"><span class="num">2021–2023</span><span>主理人參與</span></p>
-<dl>
-<div class="c-row"><dt>負責範圍</dt><dd>2021 年撰寫音樂製作補助企劃；2023 年擔任專輯 A&amp;R 企劃，並為〈Fiklik 火花〉合聲編寫與演唱。</dd></div>
-<div class="c-row"><dt>已知成果</dt><dd>專輯入圍第 35 屆金曲獎最佳原住民專輯獎。</dd></div>
-</dl>
+<p class="case-tags"><span>補助計畫撰寫</span><span>A&amp;R 企劃</span><span>合聲編寫</span></p>
+<dl><div class="c-row"><dt>主理人角色</dt><dd>2021 年撰寫音樂製作補助企劃；2023 年擔任專輯 A&amp;R 企劃，並為〈Fiklik 火花〉合聲編寫與演唱。</dd></div><div class="c-row"><dt>作品入圍</dt><dd>專輯入圍第 35 屆金曲獎最佳原住民專輯獎（作品入圍，非個人獎項）。</dd></div><div class="c-row"><dt>對應服務</dt><dd class="svc-ref">內容製作與行銷宣傳・補助企劃與合作提案</dd></div></dl>
 </article>
 </div>
-<p class="cases-foot">「溫室創意承接」為公司執行的專案；「主理人參與」為主理人陳瑞發的個人參與角色。</p>
+<p class="cases-foot">「公司承接」為溫室創意執行的專案；「主理人參與」為主理人陳瑞發的個人參與角色。作品入圍為作品本身的紀錄。</p>
 </div>
 </section>
 <section class="section" id="process">
@@ -440,7 +471,7 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <li><span class="n">03</span><b>專案執行</b><p>依確認的排程推進，在約定節點溝通與檢視。</p></li>
 <li><span class="n">04</span><b>成果交付</b><p>完成約定工作，依專案性質整理成果與後續建議。</p></li>
 </ol>
-<p class="process-note">可單項委託，也可依需求整合合作；報價依工作範圍與時程評估。<small>初步洽詢以了解需求為主；長期顧問、成效追蹤或結案協作是否包含，依報價確認。</small></p>
+<p class="process-note">可單項委託，也可依需求整合合作；報價依工作範圍與時程評估。</p>
 </div>
 </section>
 <section class="section" id="about">
@@ -453,9 +484,9 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <div>
 <p class="intro">溫室創意協助品牌、創作者與專案團隊，將想法整理成可執行的計畫。從品牌定位、內容與行銷，到活動統籌、補助企劃與合作提案，依照每個專案的需求組合專業與資源。</p>
 <div class="belief">
-<p class="q">以創意為資本，<span class="g">以流行文化為載體，</span>以產業整合為槓桿。</p>
+<p class="q">以創意為資本，以流行文化為載體，以產業整合為槓桿。</p>
 <p>完成眼前的計畫，也讓每次投入累積成品牌下一步的基礎。</p>
-<p class="en">Invest Creativity · Revive your creativity and let it thrive.</p>
+<p class="en">Revive your creativity and let it thrive.</p>
 </div>
 </div>
 <div class="founder">
@@ -466,7 +497,6 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <li>具音樂製作、A&amp;R、內容企劃、行銷與演出製作的實務經驗，熟悉一個作品從企劃、製作到推出的完整流程。</li>
 <li>曾任職好威龍音樂、新樂園音樂及 Believe Digital，參與演唱會製作、唱片企劃與數位發行合作。</li>
 <li>具智慧財產法背景與企劃提案經驗，能理解創作、品牌、合作條件與執行之間的關係。</li>
-<li>這些經驗用在每個專案上：把內容想清楚、把流程排清楚，並協調不同團隊一起完成。</li>
 </ul>
 <details>
 <summary>現任職務、經歷與學歷</summary>
@@ -506,25 +536,39 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 </div>
 <div class="works" id="works-grid">
 <section class="wcol" data-col="live">
-<header><h3>演出與活動</h3><span class="cnt num">11</span></header>
+<header><h3>演出與活動</h3><span class="cnt num">11 項</span></header>
 <ol><li><span class="yr num">2026</span><span class="ttl">Lavi 翁彤薰 solo 出道記者會</span><span class="role">統籌</span></li><li><span class="yr num">2025</span><span class="ttl">連穎 ERIN 首張專輯簽售記者會</span><span class="role">統籌</span></li><li><span class="yr num">2024</span><span class="ttl">北流《Open Up》舞台</span><span class="role">主持</span></li><li><span class="yr num">2022</span><span class="ttl">張語噥 高雄簽唱會</span><span class="role">主持</span></li><li><span class="yr num">2021–2024</span><span class="ttl">世新大學 校園活動</span><span class="role">主持</span></li><li><span class="yr num">2019</span><span class="ttl">血肉果汁機《建功蓋廟》演唱會</span><span class="role">副導</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">OBSESS《痛苦造就了我們》演唱會</span><span class="role">執行導演</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">ØZI 首場個人演唱會《天堂中迷航》</span><span class="role">製作統籌</span></li><li class=extra><span class="yr num">2018</span><span class="ttl">潘瑋柏 ALPHA 巡迴演唱會</span><span class="role">製作執行</span></li><li class=extra><span class="yr num">2017–2018</span><span class="ttl">頑童 MJ116《幹大事》演唱會</span><span class="role">製作助理</span></li><li class=extra><span class="yr num">2017</span><span class="ttl">Deca Joins 首張專輯《浴室》巡迴－台北場</span><span class="role">執行</span></li></ol>
 <button type="button" class="more-btn" aria-expanded="false">顯示全部 11 項</button>
 </section>
 <section class="wcol" data-col="plan">
-<header><h3>企劃與節目</h3><span class="cnt num">10</span></header>
+<header><h3>企劃與節目</h3><span class="cnt num">10 項</span></header>
 <ol><li><span class="yr num">2025</span><span class="ttl">《音樂產業，你怎麼看？》</span><span class="role">節目製作、企劃、主持</span></li><li><span class="yr num">2023</span><span class="ttl">野聲音娛樂《寶藏男孩國際打野計畫》</span><span class="role">補助案企劃</span></li><li><span class="yr num">2023</span><span class="ttl">AZ 李孝祖《美式教育》專輯</span><span class="role">A&amp;R 企劃｜入圍第 35 屆金曲獎最佳原住民專輯獎</span></li><li><span class="yr num">2021</span><span class="ttl">《HHCC 喇街頭》第二季</span><span class="role">節目企劃</span></li><li><span class="yr num">2021</span><span class="ttl">陳又熙 Yohee ft. Ak Benjamin〈Goodbye〉</span><span class="role">A&amp;R 企劃</span></li><li><span class="yr num">2020</span><span class="ttl">曾韻璇〈Lips on fire〉</span><span class="role">A&amp;R 企劃</span></li><li class=extra><span class="yr num">2020</span><span class="ttl">Sammy 張語噥《Sammy1.0》</span><span class="role">網路宣傳企劃</span></li><li class=extra><span class="yr num">2020</span><span class="ttl">Morrison 馬仕釗〈I Still Think About It〉</span><span class="role">A&amp;R 企劃</span></li><li class=extra><span class="yr num">2020</span><span class="ttl">艾克斯娛樂《怎麼還不睡》</span><span class="role">節目專案策劃</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">鼓鼓 呂思緯《蟲洞》專輯</span><span class="role">網路社群企劃</span></li></ol>
 <button type="button" class="more-btn" aria-expanded="false">顯示全部 10 項</button>
 </section>
 <section class="wcol" data-col="music">
-<header><h3>音樂作品</h3><span class="cnt num">22</span></header>
+<header><h3>音樂作品</h3><span class="cnt num">22 項</span></header>
 <ol><li><span class="yr num">2026</span><span class="ttl">金鐘 61 李多慧演出</span><span class="role">合聲、合聲編寫</span></li><li><span class="yr num">2026</span><span class="ttl">美麗本人 Get Down ft. 謝乾乾〈蹲得低〉</span><span class="role">合聲、合聲編寫</span></li><li><span class="yr num">2025</span><span class="ttl">Fi-Ne 粉內 ft. 呂薔〈Infection〉</span><span class="role">作曲</span></li><li><span class="yr num">2025</span><span class="ttl">Stanley 史丹利 feat. 蘋蘋澎澎〈SUGO 速聊〉</span></li><li><span class="yr num">2023</span><span class="ttl">魏德聖導演電影《BIG》片尾曲</span><span class="role">作詞、作曲、配唱製作</span></li><li><span class="yr num">2023</span><span class="ttl">AZ 李孝祖〈Fiklik 火花〉</span><span class="role">合聲編寫、合聲</span></li><li class=extra><span class="yr num">2021</span><span class="ttl">AKB48 Team TP〈一秒一秒約好〉</span><span class="role">合聲編寫、合聲</span></li><li class=extra><span class="yr num">2021</span><span class="ttl">艾薇 Ivy〈溫室狂花〉〈今晚沒極限〉</span><span class="role">作詞</span></li><li class=extra><span class="yr num">2021</span><span class="ttl">【永夜星神】官方遊戲主題曲〈永夜星神〉</span><span class="role">演唱</span></li><li class=extra><span class="yr num">2020</span><span class="ttl">大淵 MUTA × KID 林柏昇 × 阿部瑪利亞〈山山〉</span><span class="role">作曲、合聲</span></li><li class=extra><span class="yr num">2020</span><span class="ttl">吳映潔 GEmma Wu〈一個人跳舞〉</span><span class="role">合聲編寫</span></li><li class=extra><span class="yr num">2020</span><span class="ttl">賴慈泓〈所以你得嫁給我〉</span><span class="role">合聲編寫、合聲</span></li><li class=extra><span class="yr num">2020</span><span class="ttl">7L!NG〈Queen of late〉</span><span class="role">合聲</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">林明禎〈Whoo〉〈來不及〉</span><span class="role">合聲</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">火箭少女 Sunnee〈忘記擁抱〉</span><span class="role">合聲、合聲編寫</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">家家 ft. ØZI〈House Party〉</span><span class="role">執行製作</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">左左右右〈YZT Evolution〉</span><span class="role">配唱製作</span></li><li class=extra><span class="yr num">2018</span><span class="ttl">滴妹〈最好的樣子〉</span><span class="role">作曲、合聲、合聲編寫</span></li><li class=extra><span class="yr num">2018</span><span class="ttl">愛紗〈梭哈〉</span><span class="role">合聲、合聲編寫</span></li><li class=extra><span class="yr num">2018</span><span class="ttl">Leo 王〈快樂的甘蔗人〉</span><span class="role">執行製作</span></li><li class=extra><span class="yr num">2018</span><span class="ttl">安那〈Ange Anna〉</span><span class="role">作曲、合聲、合聲編寫</span></li><li class=extra><span class="yr num">2017</span><span class="ttl">數位單曲 G5SH ft. Reva〈Don’t you〉</span><span class="role">演唱</span></li></ol>
 <button type="button" class="more-btn" aria-expanded="false">顯示全部 22 項</button>
 </section>
 <section class="wcol" data-col="grant">
-<header><h3>過審補助企劃</h3><span class="cnt num">13</span></header>
+<header><h3>過審補助企劃</h3><span class="cnt num">13 項</span></header>
 <ol><li><span class="yr num">2026</span><span class="ttl">《OPEN THAT BOX 脫口而出》</span><span class="role">音樂製作補助企劃</span></li><li><span class="yr num">2026</span><span class="ttl">《HUR+ 國際女團 IP 拓展計劃》</span><span class="role">流行音樂星品牌經紀發展補助企劃</span></li><li><span class="yr num">2026</span><span class="ttl">《國語作業簿 #Original》</span><span class="role">流行音樂產業行銷推廣補助企劃</span></li><li><span class="yr num">2025</span><span class="ttl">翊庭《115 年度精緻廢物指南》</span><span class="role">音樂製作發行補助企劃</span></li><li><span class="yr num">2025</span><span class="ttl">咱的跤跡《著味》台語專輯</span><span class="role">音樂製作補助企劃</span></li><li><span class="yr num">2024</span><span class="ttl">暴君樂團《永遠的台灣島》</span><span class="role">音樂製作補助企劃</span></li><li class=extra><span class="yr num">2024</span><span class="ttl">溫室創意</span><span class="role">創業補助企劃</span></li><li class=extra><span class="yr num">2023</span><span class="ttl">野聲音娛樂《寶藏男孩國際打野計畫》</span><span class="role">星品牌補助企劃</span></li><li class=extra><span class="yr num">2021</span><span class="ttl">《有夠難約 第二季》</span><span class="role">流行音樂新媒體應用節目製播計畫補助</span></li><li class=extra><span class="yr num">2021</span><span class="ttl">AZ 李孝祖《美式教育》</span><span class="role">音樂製作補助企劃</span></li><li class=extra><span class="yr num">2020</span><span class="ttl">金魚腦《我有話要唱》</span><span class="role">音樂製作補助企劃</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">ØZI《禁詩》第二張全創作專輯</span><span class="role">補助案企劃</span></li><li class=extra><span class="yr num">2019</span><span class="ttl">《技術者 們》</span><span class="role">流行音樂新媒體節目補助企劃</span></li></ol>
 <button type="button" class="more-btn" aria-expanded="false">顯示全部 13 項</button>
 </section>
+</div>
+</div>
+</section>
+<section class="section" id="faq">
+<div class="wrap">
+<div class="sec-head">
+<p class="eyebrow">FAQ</p>
+<h2>合作常見問題</h2>
+</div>
+<div class="faq">
+<details><summary>可以只委託其中一項工作嗎？</summary><p>可以，依需求確認工作範圍、交付內容與時程。</p></details>
+<details><summary>不是音樂或娛樂產業，也可以合作嗎？</summary><p>品牌企劃與補助提案可依各產業需求評估；內容與活動專案依實際需求確認合作方式。</p></details>
+<details><summary>還沒有完整企劃，可以先詢問嗎？</summary><p>可以先提供目前想法、希望達成的目標與預計時程，團隊會先確認需要的協助。</p></details>
+<details><summary>合作如何報價？</summary><p>依工作範圍、製作與協作需求、交付內容及時程評估。</p></details>
 </div>
 </div>
 </section>
@@ -534,22 +578,35 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <p class="eyebrow">Contact</p>
 <h2 style="margin-top:12px">有件事想做，<br>一起聊聊怎麼開始。</h2>
 <p class="lede">無論你來自哪個產業，都歡迎告訴我們正在準備的品牌、內容、活動或提案，以及需要的協助與預計時程。</p>
-<p class="picked" id="picked">想洽談的服務：<b id="picked-name"></b><button type="button" id="picked-clear">清除</button></p>
+<p class="picked" id="picked" aria-live="polite">已選服務：<b id="picked-name"></b><button type="button" id="picked-clear">清除選擇</button></p>
+<div class="qr-panel">
+<div class="qr-box"><svg role="img" aria-label="LINE 官方帳號 @307bwjvm 加入好友 QR Code" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33 33" class="segno"><path class="qrline" stroke="#000" shape-rendering="crispEdges" d="M2 2.5h7m1 0h2m2 0h4m2 0h1m1 0h1m1 0h7m-29 1h1m5 0h1m8 0h1m1 0h2m3 0h1m5 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m1 0h2m1 0h1m3 0h1m1 0h2m1 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m5 0h1m2 0h1m1 0h1m2 0h1m1 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m2 0h2m4 0h4m3 0h1m1 0h3m1 0h1m-29 1h1m5 0h1m1 0h1m3 0h3m3 0h1m1 0h1m1 0h1m5 0h1m-29 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-20 1h5m4 0h3m-21 1h1m1 0h1m3 0h2m1 0h5m1 0h2m1 0h1m1 0h1m2 0h1m2 0h1m1 0h1m-27 1h2m1 0h1m1 0h3m1 0h2m5 0h2m2 0h1m4 0h2m-28 1h2m1 0h4m1 0h1m1 0h1m1 0h3m1 0h1m1 0h1m4 0h3m1 0h1m-28 1h1m2 0h2m1 0h2m1 0h3m1 0h1m1 0h1m5 0h2m1 0h1m-26 1h1m2 0h1m1 0h2m2 0h2m1 0h3m1 0h1m1 0h1m1 0h1m1 0h2m4 0h1m-28 1h1m2 0h1m2 0h2m1 0h1m2 0h4m1 0h3m1 0h2m3 0h2m-26 1h4m1 0h3m1 0h1m2 0h6m2 0h1m4 0h1m-29 1h1m1 0h2m1 0h1m2 0h1m2 0h3m1 0h2m3 0h2m1 0h2m-22 1h4m1 0h3m1 0h2m1 0h1m2 0h2m2 0h2m4 0h1m-28 1h2m2 0h1m2 0h3m4 0h2m1 0h3m1 0h2m2 0h3m-29 1h2m1 0h1m2 0h1m2 0h2m2 0h4m1 0h2m2 0h1m1 0h2m2 0h1m-27 1h1m2 0h1m1 0h4m3 0h2m2 0h4m2 0h1m-25 1h7m1 0h3m2 0h2m1 0h1m1 0h1m1 0h6m1 0h1m-20 1h3m1 0h5m1 0h1m1 0h1m3 0h3m1 0h1m-29 1h7m1 0h1m1 0h3m2 0h1m1 0h2m1 0h1m1 0h1m1 0h1m3 0h1m-29 1h1m5 0h1m2 0h2m2 0h1m1 0h2m3 0h1m3 0h1m3 0h1m-29 1h1m1 0h3m1 0h1m5 0h2m1 0h1m2 0h8m1 0h2m-29 1h1m1 0h3m1 0h1m2 0h3m1 0h1m1 0h2m1 0h1m1 0h1m3 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m2 0h1m3 0h2m2 0h3m2 0h1m2 0h2m-29 1h1m5 0h1m3 0h3m2 0h1m2 0h2m1 0h2m2 0h1m-26 1h7m1 0h3m1 0h1m1 0h3m3 0h1m4 0h1m2 0h1"/></svg></div>
+<div class="qr-text">
+<b>用手機掃描，加入 LINE 好友</b>
+<p>LINE ID：@307bwjvm</p>
+<p class="kw-hint">加入後輸入關鍵字 <span class="kw" data-kw-text>合作</span>，即可開始洽詢。</p>
+<p>QR Code 只用來加入好友，不會帶入你在網頁上選擇的服務。</p>
+</div>
+</div>
 </div>
 <div class="cbox">
-<span class="lbl" style="margin:0">LINE 官方帳號</span>
-<div class="row"><a class="btn line" href="https://line.me/R/ti/p/@307bwjvm" target="_blank" rel="noopener">加入 LINE 好友洽詢</a></div>
-<p class="hint">LINE ID：@307bwjvm，加入好友後直接傳訊息給我們。</p>
+<p class="ch-title">LINE 官方帳號</p>
+<div class="row">
+<a class="btn line" id="line-chat" href="https://line.me/R/oaMessage/%40307bwjvm/?%E5%90%88%E4%BD%9C" target="_blank" rel="noopener">用 LINE 聊聊需求</a>
+<a class="btn ghost" id="line-add" href="https://line.me/R/ti/p/%40307bwjvm" target="_blank" rel="noopener">加入 LINE 好友</a>
+</div>
+<p class="hint">手機點「用 LINE 聊聊需求」會開啟官方帳號對話，並預先填入關鍵字 <span class="kw" data-kw-text>合作</span>；訊息需由你自行按下送出。</p>
+<p class="fallback">無法直接開啟 LINE 時：搜尋 ID <b>@307bwjvm</b> 加入好友，再輸入關鍵字 <span class="kw" data-kw-text>合作</span>。<button type="button" class="linkbtn" id="copy-kw">複製關鍵字</button></p>
 <hr>
-<span class="lbl" style="margin:0">Email</span>
+<p class="ch-title">Email</p>
 <span class="mail" id="mail">revivecreative2331@gmail.com</span>
 <div class="row">
-<a class="btn" id="mail-btn" href="mailto:revivecreative2331@gmail.com?subject=%E5%90%88%E4%BD%9C%E6%B4%BD%E8%A9%A2%EF%BD%9C%E5%B0%88%E6%A1%88%E5%90%8D%E7%A8%B1&amp;body=%E6%82%A8%E5%A5%BD%EF%BC%8C%E6%83%B3%E8%88%87%E6%BA%AB%E5%AE%A4%E5%89%B5%E6%84%8F%E8%81%8A%E8%81%8A%E5%90%88%E4%BD%9C%EF%BC%9A%0A%0A%E3%83%BB%E7%A8%B1%E5%91%BC%EF%BC%8F%E5%85%AC%E5%8F%B8%EF%BC%9A%0A%E3%83%BB%E6%89%80%E5%B1%AC%E7%94%A2%E6%A5%AD%EF%BC%8F%E5%93%81%E7%89%8C%E7%B0%A1%E4%BB%8B%EF%BC%9A%0A%E3%83%BB%E5%B0%88%E6%A1%88%E7%B0%A1%E4%BB%8B%EF%BC%9A%0A%E3%83%BB%E5%B8%8C%E6%9C%9B%E5%A7%94%E8%A8%97%E7%9A%84%E5%B7%A5%E4%BD%9C%EF%BC%9A%0A%E3%83%BB%E9%A0%90%E8%A8%88%E6%99%82%E7%A8%8B%EF%BC%9A%0A%E3%83%BB%E9%A0%90%E7%AE%97%E7%AF%84%E5%9C%8D%EF%BC%88%E5%A6%82%E5%B7%B2%E6%9C%89%E8%A6%8F%E5%8A%83%EF%BC%89%EF%BC%9A%0A%E3%83%BB%E7%9B%B8%E9%97%9C%E8%B3%87%E6%96%99%E9%80%A3%E7%B5%90%EF%BC%9A%0A">寄信洽談</a>
-<button type="button" class="btn ghost" id="copy-mail">複製 Email</button>
+<a class="btn small" id="mail-btn" href="mailto:revivecreative2331@gmail.com">寄信洽談</a>
+<button type="button" class="btn small ghost" id="copy-mail">複製 Email</button>
 </div>
-<p class="hint">寄信會自動帶入主旨與洽詢項目。若沒有開啟郵件程式，可以<button type="button" id="copy-tpl" style="font:inherit;color:var(--accent);background:none;border:0;padding:0;text-decoration:underline;cursor:pointer">複製洽詢範本</button>，貼到你慣用的信箱。</p>
+<p class="hint">寄信會帶入主旨與洽詢項目。沒有開啟郵件程式時，可以<button type="button" class="linkbtn" id="copy-tpl">複製洽詢範本</button>貼到慣用信箱。</p>
 <hr>
-<a class="ig" href="https://www.instagram.com/revivecreative_tw/" target="_blank" rel="noopener"><span>Instagram</span><b>@revivecreative_tw ↗</b></a>
+<a class="ig" href="https://www.instagram.com/revivecreative_tw/" target="_blank" rel="noopener" data-track="instagram_click"><span>Instagram</span><b>@revivecreative_tw ↗</b></a>
 </div>
 </div>
 </section>
@@ -557,76 +614,63 @@ footer{padding-block:48px 36px;border-top:1px solid var(--line)}
 <footer>
 <div class="wrap foot">
 <span class="logo logo-lockup" role="img" aria-label="溫室創意 Revive Creative"></span>
-<div class="foot-r">
-<p class="counter" id="counter" hidden><span class="dot" aria-hidden="true"></span><span>參訪人數<b id="c-people"></b></span><span class="sep" aria-hidden="true">/</span><span>累計造訪<b id="c-visits"></b></span></p>
 <p class="legal">© 2023–2026 溫室創意有限公司 Revive Creative · Taipei</p>
-</div>
 </div>
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>
+/*
+ Conversion events (no third-party analytics installed; nothing is sent anywhere by this page).
+ track() dispatches a "rc:track" CustomEvent on window and, only if a dataLayer array already exists, pushes to it.
+ Events: service_inquiry_click{service,keyword} · need_nav_click{service} · hero_service_click{service}
+         line_chat_click{keyword,service} · line_add_friend_click · email_click{service} · email_copy
+         template_copy{service} · keyword_copy{keyword} · instagram_click · nav_contact_click · hero_contact_click
+ A click is only a click: it does not mean a friend was added, a message was sent, or a request was submitted.
+ No names, emails, budgets or message contents are collected.
+*/
 (function(){
-var EMAIL='revivecreative2331@gmail.com';
+var EMAIL='revivecreative2331@gmail.com', LINE_ENC='%40307bwjvm', DEFAULT_KW='合作';
 var $=function(id){return document.getElementById(id)};
-var toastT; function toast(m){var t=$('toast');t.textContent=m;t.classList.add('on');clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove('on')},2200)}
-function copy(text,okMsg,el){
-var fail=function(){ if(el){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);toast('已選取文字，請按複製')} else toast('無法自動複製，請手動選取') };
-try{navigator.clipboard.writeText(text).then(function(){toast(okMsg)},fail)}catch(e){fail()}
-}
-// mobile menu
-var mb=$('menu-btn'), menu=$('menu');
+function track(name,detail){var d=Object.assign({event:name},detail||{});try{window.dispatchEvent(new CustomEvent('rc:track',{detail:d}))}catch(e){}if(Array.isArray(window.dataLayer))window.dataLayer.push(d)}
+window.rcTrack=track;
+var toastT;function toast(m){var t=$('toast');t.textContent=m;t.classList.add('on');clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove('on')},2200)}
+function copy(text,ok,el){var fail=function(){if(el){var r=document.createRange();r.selectNodeContents(el);var s=getSelection();s.removeAllRanges();s.addRange(r);toast('已選取文字，請按複製')}else toast('無法自動複製，請手動輸入')};try{navigator.clipboard.writeText(text).then(function(){toast(ok)},fail)}catch(e){fail()}}
+// menu
+var mb=$('menu-btn'),menu=$('menu');
 function setMenu(o){menu.classList.toggle('open',o);mb.setAttribute('aria-expanded',o?'true':'false');mb.textContent=o?'關閉':'選單'}
 mb.addEventListener('click',function(){setMenu(!menu.classList.contains('open'))});
 menu.addEventListener('click',function(e){if(e.target.tagName==='A')setMenu(false)});
 document.addEventListener('keydown',function(e){if(e.key==='Escape'&&menu.classList.contains('open')){setMenu(false);mb.focus()}});
-// section highlight
 var links=[].slice.call(menu.querySelectorAll('a'));
-if('IntersectionObserver' in window){
-var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)links.forEach(function(a){a.setAttribute('aria-current',a.getAttribute('href')==='#'+e.target.id?'true':'false')})})},{rootMargin:'-40% 0px -55% 0px'});
-['services','cases','process','about','works','contact'].forEach(function(id){var el=$(id);if(el)io.observe(el)});
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)links.forEach(function(a){a.setAttribute('aria-current',a.getAttribute('href')==='#'+e.target.id?'true':'false')})})},{rootMargin:'-40% 0px -55% 0px'});['services','cases','process','about','contact'].forEach(function(id){var el=$(id);if(el)io.observe(el)})}
+// generic data-track
+document.addEventListener('click',function(e){var a=e.target.closest('[data-track]');if(a)track(a.getAttribute('data-track'),a.dataset.service?{service:a.dataset.service}:{})});
+// jump highlight
+[].forEach.call(document.querySelectorAll('a[href^="#svc-"]'),function(a){a.addEventListener('click',function(){var el=document.querySelector(a.getAttribute('href'));if(!el)return;setTimeout(function(){el.focus({preventScroll:true});el.classList.add('flash');setTimeout(function(){el.classList.remove('flash')},1600)},350)})});
+// inquiry state
+var state={service:'',kw:DEFAULT_KW};
+function body(s){return '您好，想與溫室創意聊聊合作：\n\n・稱呼／公司：\n・所屬產業／品牌簡介：\n・專案簡介：\n・希望委託的工作：'+(s||'')+'\n・預計時程：\n・預算範圍（如已有規劃）：\n・相關資料連結：\n'}
+function subj(s){return '合作洽詢｜'+(s?s+'｜':'')+'專案名稱'}
+function render(){
+ $('line-chat').href='https://line.me/R/oaMessage/'+LINE_ENC+'/?'+encodeURIComponent(state.kw);
+ $('mail-btn').href='mailto:'+EMAIL+'?subject='+encodeURIComponent(subj(state.service))+'&body='+encodeURIComponent(body(state.service));
+ [].forEach.call(document.querySelectorAll('[data-kw-text]'),function(el){el.textContent=state.kw});
+ $('picked').classList.toggle('on',!!state.service);$('picked-name').textContent=state.service;
 }
-// jump to service group with highlight
-[].forEach.call(document.querySelectorAll('a[href^="#svc-"]'),function(a){a.addEventListener('click',function(){
-var el=document.querySelector(a.getAttribute('href')); if(!el)return;
-setTimeout(function(){el.focus({preventScroll:true});el.classList.add('flash');setTimeout(function(){el.classList.remove('flash')},1600)},350);
-})});
-// inquiry
-function body(svc){return '您好，想與溫室創意聊聊合作：\n\n・稱呼／公司：\n・所屬產業／品牌簡介：\n・專案簡介：\n・希望委託的工作：'+(svc||'')+'\n・預計時程：\n・預算範圍（如已有規劃）：\n・相關資料連結：\n'}
-function subj(svc){return '合作洽詢｜'+(svc?svc+'｜':'')+'專案名稱'}
-var current='';
-function setService(svc){
-current=svc||'';
-$('mail-btn').href='mailto:'+EMAIL+'?subject='+encodeURIComponent(subj(current))+'&body='+encodeURIComponent(body(current));
-$('picked').classList.toggle('on',!!current); $('picked-name').textContent=current;
-}
-[].forEach.call(document.querySelectorAll('.svc-cta'),function(a){a.addEventListener('click',function(){setService(a.dataset.service)})});
-$('picked-clear').addEventListener('click',function(){setService('')});
-$('copy-mail').addEventListener('click',function(){copy(EMAIL,'已複製 Email：'+EMAIL,$('mail'))});
-$('copy-tpl').addEventListener('click',function(){copy('收件人：'+EMAIL+'\n主旨：'+subj(current)+'\n\n'+body(current),'已複製洽詢範本')});
-// works filter + expand
-var grid=$('works-grid'), fbtns=[].slice.call(document.querySelectorAll('.chain button'));
-fbtns.forEach(function(b){b.addEventListener('click',function(){
-var f=b.dataset.f; fbtns.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});
-[].forEach.call(grid.querySelectorAll('.wcol'),function(c){c.hidden=!(f==='all'||c.dataset.col===f)});
-})});
-[].forEach.call(document.querySelectorAll('.more-btn'),function(b){
-var col=b.closest('.wcol'), n=col.querySelectorAll('li').length;
-b.addEventListener('click',function(){var on=col.classList.toggle('all');b.setAttribute('aria-expanded',on?'true':'false');b.textContent=on?'收合':'顯示全部 '+n+' 項'});
-});
-})();
-// visitor counter (free abacus counter; shown only when numbers load)
-(function(){
-var NS='https://abacus.jasoncameron.dev/', K='revivecreative-tw/';
-function call(path){return fetch(NS+path,{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){return j.value})}
-var seen=false,sess=false;
-try{seen=localStorage.getItem('rc-seen')==='1'}catch(e){}
-try{sess=sessionStorage.getItem('rc-sess')==='1'}catch(e){}
-Promise.all([call((seen?'get/':'hit/')+K+'visitors'),call((sess?'get/':'hit/')+K+'visits')]).then(function(v){
-try{localStorage.setItem('rc-seen','1');sessionStorage.setItem('rc-sess','1')}catch(e){}
-var f=function(n){return Number(n).toLocaleString('zh-TW')};
-document.getElementById('c-people').textContent=f(v[0]);document.getElementById('c-visits').textContent=f(v[1]);
-document.getElementById('counter').hidden=false;
-}).catch(function(){});
+function setService(s,kw){state.service=s||'';state.kw=s?kw:DEFAULT_KW;render()}
+[].forEach.call(document.querySelectorAll('.svc-cta'),function(a){a.addEventListener('click',function(){setService(a.dataset.service,a.dataset.kw);track('service_inquiry_click',{service:a.dataset.service,keyword:a.dataset.kw})})});
+$('picked-clear').addEventListener('click',function(){setService('');toast('已改回一般合作洽詢')});
+$('line-chat').addEventListener('click',function(){track('line_chat_click',{keyword:state.kw,service:state.service})});
+$('line-add').addEventListener('click',function(){track('line_add_friend_click')});
+$('mail-btn').addEventListener('click',function(){track('email_click',{service:state.service})});
+$('copy-mail').addEventListener('click',function(){copy(EMAIL,'已複製 Email：'+EMAIL,$('mail'));track('email_copy')});
+$('copy-tpl').addEventListener('click',function(){copy('收件人：'+EMAIL+'\n主旨：'+subj(state.service)+'\n\n'+body(state.service),'已複製洽詢範本');track('template_copy',{service:state.service})});
+$('copy-kw').addEventListener('click',function(){copy(state.kw,'已複製關鍵字「'+state.kw+'」');track('keyword_copy',{keyword:state.kw})});
+render();
+// works
+var grid=$('works-grid'),fb=[].slice.call(document.querySelectorAll('.chain button'));
+fb.forEach(function(b){b.addEventListener('click',function(){var f=b.dataset.f;fb.forEach(function(x){x.setAttribute('aria-pressed',x===b?'true':'false')});[].forEach.call(grid.querySelectorAll('.wcol'),function(c){c.hidden=!(f==='all'||c.dataset.col===f)})})});
+[].forEach.call(document.querySelectorAll('.more-btn'),function(b){var col=b.closest('.wcol'),n=col.querySelectorAll('li').length;b.addEventListener('click',function(){var on=col.classList.toggle('all');b.setAttribute('aria-expanded',on?'true':'false');b.textContent=on?'收合':'顯示全部 '+n+' 項'})});
 })();
 </script>
 </body>
